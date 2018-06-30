@@ -1,0 +1,42 @@
+package tk.mybatis.simple.model;
+
+
+/**
+ * 权限表
+ */
+public class SysPrivilege {
+
+	/**
+	 * 权限ID
+	 */
+	private Long id;
+	/**
+	 * 权限名称
+	 */
+	private String privilegeName;
+	/**
+	 * 权限URL
+	 */
+	private String privelegeUrl;
+	
+	//setter和getter方法
+	public Long getId() {
+		return id;
+	}
+	public void setId(Long id) {
+		this.id = id;
+	}
+	public String getPrivilegeName() {
+		return privilegeName;
+	}
+	public void setPrivilegeName(String privilegeName) {
+		this.privilegeName = privilegeName;
+	}
+	public String getPrivelegeUrl() {
+		return privelegeUrl;
+	}
+	public void setPrivelegeUrl(String privelegeUrl) {
+		this.privelegeUrl = privelegeUrl;
+	}
+	
+}
