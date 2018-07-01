@@ -27,8 +27,8 @@
     </environments>
     
     <mappers>
-        <!-- <apper resource="tk/mybatis/simple/mapper/CountryMapper.xml"/>
-        <mapper resource="tk/mybatis/simple/mapper/UserMapper.xml"/>
+        <mapper resource="tk/mybatis/simple/mapper/CountryMapper.xml"/>
+        <!-- <mapper resource="tk/mybatis/simple/mapper/UserMapper.xml"/>
         <mapper resource="tk/mybatis/simple/mapper/RoleMapper.xml"/>
         <mapper resource="tk/mybatis/simple/mapper/UserRoleMapper.xml"/>
         <mapper resource="tk/mybatis/simple/mapper/PrivilegeMapper.xml"/>
