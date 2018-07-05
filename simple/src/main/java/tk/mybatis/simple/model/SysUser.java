@@ -35,6 +35,11 @@ public class SysUser {
 	 * 创建时间
 	 */
 	private Date createTime;
+	/**
+	 * 用户角色
+	 * @return
+	 */
+	private SysRole role;
 	
 	//setter和getter方法
 	public Long getId() {
@@ -78,5 +83,11 @@ public class SysUser {
 	}
 	public void setCreateTime(Date createTime) {
 		this.createTime = createTime;
+	}
+	public SysRole getRole() {
+		return role;
+	}
+	public void setRole(SysRole role) {
+		this.role = role;
 	}
 }

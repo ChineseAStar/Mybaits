@@ -19,16 +19,16 @@ public class UserMapperTest extends BaseMapperTest {
 	public void testSelectById() {
 		SqlSession sqlSession = getSqlSession();
 		try {
-			//获取UserMapper接口
+			//鑾峰彇UserMapper鎺ュ彛
 			UserMapper userMapper = sqlSession.getMapper(UserMapper.class);
-			//调用selectById方法，查询id=1的用户
+			//璋冪敤selectById鏂规硶锛屾煡璇d=1鐨勭敤鎴�
 			SysUser user = userMapper.selectById(1l);
-			//user不为空
+			//user涓嶄负绌�
 			Assert.assertNotNull(user);
 			//userName = admin
 			Assert.assertEquals("admin", user.getUserName());
 		}finally {
-			//不要忘记关闭sqlSession
+			//涓嶈蹇樿鍏抽棴sqlSession
 			sqlSession.close();
 		}
 	}
@@ -37,16 +37,16 @@ public class UserMapperTest extends BaseMapperTest {
 	public void testSelectAll() {
 		SqlSession sqlSession = getSqlSession();
 		try {
-			//获取UserMapper接口
+			//鑾峰彇UserMapper鎺ュ彛
 			UserMapper userMapper = sqlSession.getMapper(UserMapper.class);
-			//调用selectById方法，查询id=1的用户
+			//璋冪敤selectById鏂规硶锛屾煡璇d=1鐨勭敤鎴�
 			List<SysUser> userList = userMapper.selectAll();
-			//结果不为空
+			//缁撴灉涓嶄负绌�
 			Assert.assertNotNull(userList);
-			//用户数量大于0
+			//鐢ㄦ埛鏁伴噺澶т簬0
 			Assert.assertTrue(userList.size() > 0);
 		}finally {
-			//不要忘记关闭sqlSession
+			//涓嶈蹇樿鍏抽棴sqlSession
 			sqlSession.close();
 		}
 	}
@@ -56,14 +56,14 @@ public class UserMapperTest extends BaseMapperTest {
 		SqlSession sqlSession = getSqlSession();
 		try {
 			UserMapper userMapper = sqlSession.getMapper(UserMapper.class);
-			//调用selectRolesByUserId方法查询用户的角色
+			//璋冪敤selectRolesByUserId鏂规硶鏌ヨ鐢ㄦ埛鐨勮鑹�
 			List<SysRole> roleList = userMapper.selectRolesByUserId(1L);
-			//结果不为空
+			//缁撴灉涓嶄负绌�
 			Assert.assertNotNull(roleList);
-			//角色数量大于0个
+			//瑙掕壊鏁伴噺澶т簬0涓�
 			Assert.assertTrue(roleList.size() > 0);
 		}finally {
-			//不要忘记关闭sqlSession
+			//涓嶈蹇樿鍏抽棴sqlSession
 			sqlSession.close();
 		}
 	}
@@ -73,27 +73,27 @@ public class UserMapperTest extends BaseMapperTest {
 		SqlSession sqlSession = getSqlSession();
 		try {
 			UserMapper userMapper = sqlSession.getMapper(UserMapper.class);
-			//创建一个user对象
+			//鍒涘缓涓�涓猽ser瀵硅薄
 			SysUser user = new SysUser();
 			user.setUserName("test1");
 			user.setUserPassword("123456");
 			user.setUserEmail("test@mybatis.tk");
 			user.setUserInfo("test info");
-			//正常应该读入一个图片存到byte数组中
+			//姝ｅ父搴旇璇诲叆涓�涓浘鐗囧瓨鍒癰yte鏁扮粍涓�
 			user.setHeadImg(new byte[]{1,2,3});
 			user.setCreateTime(new Date());
-			//将新建的对象插入数据库，result是执行的sql影响的行数
+			//灏嗘柊寤虹殑瀵硅薄鎻掑叆鏁版嵁搴擄紝result鏄墽琛岀殑sql褰卞搷鐨勮鏁�
 			int result = userMapper.insert(user);
-			//只插入1条数据
+			//鍙彃鍏�1鏉℃暟鎹�
 			Assert.assertEquals(1, result);
-			//id为null，没有给id复制，并且没有配置回写id的值
+			//id涓簄ull锛屾病鏈夌粰id澶嶅埗锛屽苟涓旀病鏈夐厤缃洖鍐檌d鐨勫��
 			Assert.assertNull(user.getId());
 		}finally {
-			//为了不影响其他测试，这里选择回滚
-			//由于默认的sqlSessionFactory.openSession()是不自动提交的
-			//因此不手动执行commit也不会提交到数据库
+			//涓轰簡涓嶅奖鍝嶅叾浠栨祴璇曪紝杩欓噷閫夋嫨鍥炴粴
+			//鐢变簬榛樿鐨剆qlSessionFactory.openSession()鏄笉鑷姩鎻愪氦鐨�
+			//鍥犳涓嶆墜鍔ㄦ墽琛宑ommit涔熶笉浼氭彁浜ゅ埌鏁版嵁搴�
 			sqlSession.rollback();
-			//不要忘记关闭sqlSession
+			//涓嶈蹇樿鍏抽棴sqlSession
 			sqlSession.close();
 		}
 	}
@@ -103,28 +103,28 @@ public class UserMapperTest extends BaseMapperTest {
 		SqlSession sqlSession = getSqlSession();
 		try {
 			UserMapper userMapper = sqlSession.getMapper(UserMapper.class);
-			//创建一个user对象
+			//鍒涘缓涓�涓猽ser瀵硅薄
 			SysUser user = new SysUser();
 			user.setUserName("test1");
 			user.setUserPassword("123456");
 			user.setUserEmail("test@mybatis.tk");
 			user.setUserInfo("test info");
-			//正常应该读入一个图片存到byte数组中
+			//姝ｅ父搴旇璇诲叆涓�涓浘鐗囧瓨鍒癰yte鏁扮粍涓�
 			user.setHeadImg(new byte[]{1,2,3});
 			user.setCreateTime(new Date());
-			//将新建的对象插入数据库，result是执行的sql影响的行数
+			//灏嗘柊寤虹殑瀵硅薄鎻掑叆鏁版嵁搴擄紝result鏄墽琛岀殑sql褰卞搷鐨勮鏁�
 			int result = userMapper.insert2(user);
-			//只插入1条数据
+			//鍙彃鍏�1鏉℃暟鎹�
 			Assert.assertEquals(1, result);
-			//id为null，没有给id复制，并且没有配置回写id的值
+			//id涓簄ull锛屾病鏈夌粰id澶嶅埗锛屽苟涓旀病鏈夐厤缃洖鍐檌d鐨勫��
 			Assert.assertNotNull(user.getId());
 			System.out.println(user.getId());
 		}finally {
-			//为了不影响其他测试，这里选择回滚
-			//由于默认的sqlSessionFactory.openSession()是不自动提交的
-			//因此不手动执行commit也不会提交到数据库
+			//涓轰簡涓嶅奖鍝嶅叾浠栨祴璇曪紝杩欓噷閫夋嫨鍥炴粴
+			//鐢变簬榛樿鐨剆qlSessionFactory.openSession()鏄笉鑷姩鎻愪氦鐨�
+			//鍥犳涓嶆墜鍔ㄦ墽琛宑ommit涔熶笉浼氭彁浜ゅ埌鏁版嵁搴�
 			sqlSession.rollback();
-			//不要忘记关闭sqlSession
+			//涓嶈蹇樿鍏抽棴sqlSession
 			sqlSession.close();
 		}
 	}
@@ -153,28 +153,28 @@ public class UserMapperTest extends BaseMapperTest {
 		SqlSession sqlSession = getSqlSession();
 		try {
 			UserMapper userMapper = sqlSession.getMapper(UserMapper.class);
-			//从数据库查询1个user对象
+			//浠庢暟鎹簱鏌ヨ1涓猽ser瀵硅薄
 			SysUser user = userMapper.selectById(1L);
-			//当前userName为admin
+			//褰撳墠userName涓篴dmin
 			Assert.assertEquals("admin", user.getUserName());
-			//修改用户名
+			//淇敼鐢ㄦ埛鍚�
 			user.setUserName("admin_test");
-			//修改邮箱
+			//淇敼閭
 			user.setUserEmail("test@mybatis.tk");
-			//更新数据，特别注意，这里的返回值result是执行的SQL影响的行数
+			//鏇存柊鏁版嵁锛岀壒鍒敞鎰忥紝杩欓噷鐨勮繑鍥炲�紃esult鏄墽琛岀殑SQL褰卞搷鐨勮鏁�
 			int result = userMapper.updateById(user);
-			//只更新1条数据
+			//鍙洿鏂�1鏉℃暟鎹�
 			Assert.assertEquals(1, result);
-			//根据当前id查询修改后的数据
+			//鏍规嵁褰撳墠id鏌ヨ淇敼鍚庣殑鏁版嵁
 			user = userMapper.selectById(1L);
-			//修改后的名字是admin_test
+			//淇敼鍚庣殑鍚嶅瓧鏄痑dmin_test
 			Assert.assertEquals("admin_test", user.getUserName());
 		}finally {
-			//为了不影响其他测试，这里选择回滚
-			//由于默认的sqlSessionFactory.openSession()是不自动提交的
-			//因此不手动执行commit也不会提交到数据库
+			//涓轰簡涓嶅奖鍝嶅叾浠栨祴璇曪紝杩欓噷閫夋嫨鍥炴粴
+			//鐢变簬榛樿鐨剆qlSessionFactory.openSession()鏄笉鑷姩鎻愪氦鐨�
+			//鍥犳涓嶆墜鍔ㄦ墽琛宑ommit涔熶笉浼氭彁浜ゅ埌鏁版嵁搴�
 			sqlSession.rollback();
-			//不要忘记关闭sqlSession
+			//涓嶈蹇樿鍏抽棴sqlSession
 			sqlSession.close();
 		}
 	}
@@ -184,29 +184,29 @@ public class UserMapperTest extends BaseMapperTest {
 		SqlSession sqlSession = getSqlSession();
 		try {
 			UserMapper userMapper = sqlSession.getMapper(UserMapper.class);
-			//从数据库查询1个user对象
+			//浠庢暟鎹簱鏌ヨ1涓猽ser瀵硅薄
 			SysUser user1 = userMapper.selectById(1L);
-			//现在还能查询出user对象
+			//鐜板湪杩樿兘鏌ヨ鍑簎ser瀵硅薄
 			Assert.assertNotNull(user1);
-			//调用方法删除
+			//璋冪敤鏂规硶鍒犻櫎
 			Assert.assertEquals(1, userMapper.deleteById(1L));
-			//再次查询应该为null
+			//鍐嶆鏌ヨ搴旇涓簄ull
 			Assert.assertNull(userMapper.selectById(1L));
 			
-			//使用SysUser参数在进行一次测试，根据id = 1001查询
+			//浣跨敤SysUser鍙傛暟鍦ㄨ繘琛屼竴娆℃祴璇曪紝鏍规嵁id = 1001鏌ヨ
 			SysUser user2 = userMapper.selectById(1001L);
-			//现在还能查询出user对象
+			//鐜板湪杩樿兘鏌ヨ鍑簎ser瀵硅薄
 			Assert.assertNotNull(user2);
-			//调用删除，参数为user2
+			//璋冪敤鍒犻櫎锛屽弬鏁颁负user2
 			Assert.assertEquals(1, userMapper.deleteById(user2));
-			//再次查询，应该为null
+			//鍐嶆鏌ヨ锛屽簲璇ヤ负null
 			Assert.assertNull(userMapper.selectById(1001L));
 		}finally {
-			//为了不影响其他测试，这里选择回滚
-			//由于默认的sqlSessionFactory.openSession()是不自动提交的
-			//因此不手动执行commit也不会提交到数据库
+			//涓轰簡涓嶅奖鍝嶅叾浠栨祴璇曪紝杩欓噷閫夋嫨鍥炴粴
+			//鐢变簬榛樿鐨剆qlSessionFactory.openSession()鏄笉鑷姩鎻愪氦鐨�
+			//鍥犳涓嶆墜鍔ㄦ墽琛宑ommit涔熶笉浼氭彁浜ゅ埌鏁版嵁搴�
 			sqlSession.rollback();
-			//不要忘记关闭sqlSession
+			//涓嶈蹇樿鍏抽棴sqlSession
 			sqlSession.close();
 		}
 	}
@@ -220,11 +220,11 @@ public class UserMapperTest extends BaseMapperTest {
 			Assert.assertNotNull(userList);
 			Assert.assertTrue(userList.size() > 0);
 		}finally {
-			//为了不影响其他测试，这里选择回滚
-			//由于默认的sqlSessionFactory.openSession()是不自动提交的
-			//因此不手动执行commit也不会提交到数据库
+			//涓轰簡涓嶅奖鍝嶅叾浠栨祴璇曪紝杩欓噷閫夋嫨鍥炴粴
+			//鐢变簬榛樿鐨剆qlSessionFactory.openSession()鏄笉鑷姩鎻愪氦鐨�
+			//鍥犳涓嶆墜鍔ㄦ墽琛宑ommit涔熶笉浼氭彁浜ゅ埌鏁版嵁搴�
 			sqlSession.rollback();
-			//不要忘记关闭sqlSession
+			//涓嶈蹇樿鍏抽棴sqlSession
 			sqlSession.close();
 		}
 	}
@@ -234,22 +234,22 @@ public class UserMapperTest extends BaseMapperTest {
 		SqlSession sqlSession = getSqlSession();
 		try {
 			UserMapper userMapper = sqlSession.getMapper(UserMapper.class);
-			//只查询用户名时
+			//鍙煡璇㈢敤鎴峰悕鏃�
 			SysUser query = new SysUser();
 			query.setUserName("ad");
 			List<SysUser> userList = userMapper.selectByUser(query);
 			Assert.assertTrue(userList.size() > 0);
-			//之查询用户邮箱时
+			//涔嬫煡璇㈢敤鎴烽偖绠辨椂
 			query = new SysUser();
 			query.setUserEmail("test@mybatis.tk");
 			userList = userMapper.selectByUser(query);
 			Assert.assertTrue(userList.size() > 0);
-			//同时查询
+			//鍚屾椂鏌ヨ
 			query = new SysUser();
 			query.setUserName("ad");
 			query.setUserEmail("test@mybatis.tk");
 			userList = userMapper.selectByUser(query);
-			//没有符合条件的用户，结果数量为0
+			//娌℃湁绗﹀悎鏉′欢鐨勭敤鎴凤紝缁撴灉鏁伴噺涓�0
 			Assert.assertTrue(userList.size() == 0);
 		}finally {
 			sqlSession.close();
@@ -349,6 +349,34 @@ public class UserMapperTest extends BaseMapperTest {
 			Assert.assertEquals("test@mybatis.tk", user.getUserEmail());
 		}finally {
 			sqlSession.rollback();
+			sqlSession.close();
+		}
+	}
+	
+	@Test
+	public void testSelectUserAndRoleById() {
+		SqlSession sqlSession = getSqlSession();
+		try {
+			UserMapper userMapper = sqlSession.getMapper(UserMapper.class);
+//			SysUser user = userMapper.selectUserAndRoleById(1001L);
+			SysUser user = userMapper.selectUserAndRoleById2(1001L);
+			Assert.assertNotNull(user);
+			Assert.assertNotNull(user.getRole());
+		}finally {
+			sqlSession.close();
+		}
+	}
+	
+	@Test
+	public void testSelectUserAndRoleByIdSelect() {
+		SqlSession sqlSession = getSqlSession();
+		try {
+			UserMapper userMapper = sqlSession.getMapper(UserMapper.class);
+			SysUser user = userMapper.selectUserAndRoleByIdSelect(1001L);
+			Assert.assertNotNull(user);
+			System.out.println("调用user.getRole()===");
+			Assert.assertNotNull(user.getRole());
+		}finally {
 			sqlSession.close();
 		}
 	}
