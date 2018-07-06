@@ -219,3 +219,9 @@
 2018-07-05 21:43:43,256 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 9 resources
 2018-07-05 21:43:43,256 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2018-07-05 21:43:43,256 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\1\springlearn\Mybatis\simple\src\test\resources
+2018-07-06 08:47:49,364 [Worker-3] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2018-07-06 08:50:28,618 [Worker-4] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2018-07-06 08:51:00,715 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-06 08:51:00,731 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 9 resources
+2018-07-06 08:51:00,882 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-06 08:51:00,883 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\1\springlearn\Mybatis\simple\src\test\resources
