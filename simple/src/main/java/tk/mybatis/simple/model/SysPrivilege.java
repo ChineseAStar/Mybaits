@@ -17,7 +17,7 @@ public class SysPrivilege {
 	/**
 	 * 权限URL
 	 */
-	private String privelegeUrl;
+	private String privilegeUrl;
 	
 	//setter和getter方法
 	public Long getId() {
@@ -32,11 +32,11 @@ public class SysPrivilege {
 	public void setPrivilegeName(String privilegeName) {
 		this.privilegeName = privilegeName;
 	}
-	public String getPrivelegeUrl() {
-		return privelegeUrl;
+	public String getPrivilegeUrl() {
+		return privilegeUrl;
 	}
-	public void setPrivelegeUrl(String privelegeUrl) {
-		this.privelegeUrl = privelegeUrl;
+	public void setPrivilegeUrl(String privilegeUrl) {
+		this.privilegeUrl = privilegeUrl;
 	}
 	
 }

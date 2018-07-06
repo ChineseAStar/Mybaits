@@ -1,6 +1,7 @@
 package tk.mybatis.simple.model;
 
 import java.util.Date;
+import java.util.List;
 
 /**
  * 用户表
@@ -40,6 +41,11 @@ public class SysUser {
 	 * @return
 	 */
 	private SysRole role;
+	/**
+	 * 用户的角色集合
+	 * @return
+	 */
+	private List<SysRole> roleList;
 	
 	//setter和getter方法
 	public Long getId() {
@@ -89,5 +95,11 @@ public class SysUser {
 	}
 	public void setRole(SysRole role) {
 		this.role = role;
+	}
+	public List<SysRole> getRoleList() {
+		return roleList;
+	}
+	public void setRoleList(List<SysRole> roleList) {
+		this.roleList = roleList;
 	}
 }
