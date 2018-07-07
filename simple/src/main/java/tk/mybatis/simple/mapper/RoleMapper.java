@@ -14,7 +14,7 @@ import org.apache.ibatis.annotations.Update;
 
 import tk.mybatis.simple.model.SysRole;
 
-@CacheNamespaceRef(RoleMapper.class)
+//@CacheNamespaceRef(RoleMapper.class)
 public interface RoleMapper {
 
 //	别名的方式

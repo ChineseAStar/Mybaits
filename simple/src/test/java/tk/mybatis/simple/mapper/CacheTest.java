@@ -40,35 +40,35 @@ public class CacheTest extends BaseMapperTest {
 		}
 	}
 
-	@Test
-	public void testL2Cache() {
-		SqlSession sqlSession = getSqlSession();
-		SysRole role1 = null;
-		try {
-			RoleMapper roleMapper = sqlSession.getMapper(RoleMapper.class);
-			role1 = roleMapper.selectById(1L);
-			role1.setRoleName("New Name");
-			SysRole role2 = roleMapper.selectById(1L);
-			Assert.assertEquals("New Name", role2.getRoleName());
-			Assert.assertEquals(role1, role2);
-		}finally {
-			sqlSession.close();
-		}
-		
-		System.out.println("开启新的sqlSession");
-		
-		sqlSession = getSqlSession();
-		try {
-			RoleMapper roleMapper = sqlSession.getMapper(RoleMapper.class);
-			SysRole role2 = roleMapper.selectById(1L);
-			Assert.assertEquals("New Name", role2.getRoleName());
-			Assert.assertNotEquals(role1, role2);
-			roleMapper.deleteById(2L);
-			SysRole role3 = roleMapper.selectById(1L);
-			Assert.assertNotEquals(role2, role3);
-		}finally {
-			sqlSession.close();
-		}
-	}
+//	@Test
+//	public void testL2Cache() {
+//		SqlSession sqlSession = getSqlSession();
+//		SysRole role1 = null;
+//		try {
+//			RoleMapper roleMapper = sqlSession.getMapper(RoleMapper.class);
+//			role1 = roleMapper.selectById(1L);
+//			role1.setRoleName("New Name");
+//			SysRole role2 = roleMapper.selectById(1L);
+//			Assert.assertEquals("New Name", role2.getRoleName());
+//			Assert.assertEquals(role1, role2);
+//		}finally {
+//			sqlSession.close();
+//		}
+//		
+//		System.out.println("开启新的sqlSession");
+//		
+//		sqlSession = getSqlSession();
+//		try {
+//			RoleMapper roleMapper = sqlSession.getMapper(RoleMapper.class);
+//			SysRole role2 = roleMapper.selectById(1L);
+//			Assert.assertEquals("New Name", role2.getRoleName());
+//			Assert.assertNotEquals(role1, role2);
+//			roleMapper.deleteById(2L);
+//			SysRole role3 = roleMapper.selectById(1L);
+//			Assert.assertNotEquals(role2, role3);
+//		}finally {
+//			sqlSession.close();
+//		}
+//	}
 	
 }
