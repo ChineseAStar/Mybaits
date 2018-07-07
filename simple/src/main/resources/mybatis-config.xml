@@ -13,6 +13,12 @@
         <package name="tk.mybatis.simple.model"/>
     </typeAliases>
     
+    <typeHandlers>
+        <typeHandler
+            javaType="tk.mybatis.simple.type.Enabled"
+            handler="org.apache.ibatis.type.EnumOrdinalTypeHandler"/>
+    </typeHandlers>
+    
     <environments default="development">
         <environment id="development">
             <transactionManager type="JDBC">

@@ -8,6 +8,7 @@ import org.junit.Test;
 
 import tk.mybatis.simple.model.SysPrivilege;
 import tk.mybatis.simple.model.SysRole;
+import tk.mybatis.simple.type.Enabled;
 
 public class RoleMapperTest extends BaseMapperTest {
 
@@ -115,21 +116,38 @@ public class RoleMapperTest extends BaseMapperTest {
 		}
 	}
 	
+//	@Test
+//	public void testUpdateById() {
+//		//获取sqlSession
+//		SqlSession sqlSession = getSqlSession();
+//		try {
+//			//获取RoleMapper接口
+//			RoleMapper roleMapper = sqlSession.getMapper(RoleMapper.class);
+//			//调用selectById方法，查询id = 1的角色
+//			SysRole role = roleMapper.selectById2(1L);
+//			//role不为空
+//			Assert.assertNotNull(role);
+//			//roleName=管理员
+//			System.out.println(role.getCreateTime());
+//			int result = roleMapper.updateById(role);
+//			Assert.assertEquals(1, result);
+//		}finally {
+//			sqlSession.rollback();
+//			//不要忘记关闭sqlSession
+//			sqlSession.close();
+//		}
+//	}
+	
 	@Test
 	public void testUpdateById() {
 		//获取sqlSession
 		SqlSession sqlSession = getSqlSession();
 		try {
-			//获取RoleMapper接口
 			RoleMapper roleMapper = sqlSession.getMapper(RoleMapper.class);
-			//调用selectById方法，查询id = 1的角色
-			SysRole role = roleMapper.selectById2(1L);
-			//role不为空
-			Assert.assertNotNull(role);
-			//roleName=管理员
-			System.out.println(role.getCreateTime());
-			int result = roleMapper.updateById(role);
-			Assert.assertEquals(1, result);
+			SysRole role = roleMapper.selectById(2L);
+			Assert.assertEquals(Enabled.enabled, role.getEnabled());
+			role.setEnabled(Enabled.disabled);
+			roleMapper.updateById(role);
 		}finally {
 			sqlSession.rollback();
 			//不要忘记关闭sqlSession
@@ -159,7 +177,7 @@ public class RoleMapperTest extends BaseMapperTest {
 		try {
 			RoleMapper roleMapper = sqlSession.getMapper(RoleMapper.class);
 			SysRole role = roleMapper.selectById(2L);
-			role.setEnabled(0);
+			role.setEnabled(Enabled.disabled);
 			roleMapper.updateById(role);
 			List<SysRole> roleList = roleMapper.selectRoleByUserIdChoose(1L);
 			for(SysRole r : roleList) {

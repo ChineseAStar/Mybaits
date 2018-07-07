@@ -3,6 +3,8 @@ package tk.mybatis.simple.model;
 import java.util.Date;
 import java.util.List;
 
+import tk.mybatis.simple.type.Enabled;
+
 /**
  * 角色表
  */
@@ -19,7 +21,7 @@ public class SysRole {
 	/**
 	 * 有效标志
 	 */
-	private int enabled;
+	private Enabled enabled;
 	/**
 	 * 创建人
 	 */
@@ -51,12 +53,6 @@ public class SysRole {
 	public void setRoleName(String roleName) {
 		this.roleName = roleName;
 	}
-	public int getEnabled() {
-		return enabled;
-	}
-	public void setEnabled(int enabled) {
-		this.enabled = enabled;
-	}
 	public Long getCreateBy() {
 		return createBy;
 	}
@@ -80,6 +76,12 @@ public class SysRole {
 	}
 	public void setPrivilegeList(List<SysPrivilege> privilegeList) {
 		this.privilegeList = privilegeList;
+	}
+	public Enabled getEnabled() {
+		return enabled;
+	}
+	public void setEnabled(Enabled enabled) {
+		this.enabled = enabled;
 	}
 	
 }
