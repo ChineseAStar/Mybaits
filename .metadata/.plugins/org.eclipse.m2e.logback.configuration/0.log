@@ -1024,3 +1024,424 @@
 2018-07-06 21:34:11,887 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2018-07-06 21:34:11,887 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\1\springlearn\Mybatis\simple\src\test\resources
 2018-07-07 08:53:41,993 [Worker-2] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2018-07-07 09:02:02,268 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 09:02:02,280 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 9 resources
+2018-07-07 09:02:02,295 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 09:02:02,296 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\1\springlearn\Mybatis\simple\src\test\resources
+2018-07-07 09:05:33,161 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 09:05:33,169 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-07 09:05:33,173 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 09:05:33,174 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\1\springlearn\Mybatis\simple\src\test\resources
+2018-07-07 09:06:11,243 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 09:06:11,244 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-07 09:06:11,246 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 09:06:11,247 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\1\springlearn\Mybatis\simple\src\test\resources
+2018-07-07 09:09:30,912 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 09:09:30,914 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-07 09:09:30,920 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 09:09:30,921 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\1\springlearn\Mybatis\simple\src\test\resources
+2018-07-07 09:09:51,982 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 09:09:51,983 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-07 09:09:51,986 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 09:09:51,986 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\1\springlearn\Mybatis\simple\src\test\resources
+2018-07-07 09:10:21,283 [Worker-7] INFO  o.e.m.i.launch.MavenLaunchDelegate - E:\1\springlearn\Mybatis\simple
+2018-07-07 09:10:21,285 [Worker-7] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -s D:\maven\apache-maven-3.5.3-bin\apache-maven-3.5.3\conf\settings.xml test
+2018-07-07 09:10:41,413 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 09:10:41,421 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 9 resources
+2018-07-07 09:10:41,426 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 09:10:41,427 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\1\springlearn\Mybatis\simple\src\test\resources
+2018-07-07 09:20:00,481 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 09:20:00,481 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-07 09:20:00,497 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 09:20:00,497 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\1\springlearn\Mybatis\simple\src\test\resources
+2018-07-07 09:20:34,421 [Worker-15] INFO  o.e.m.i.launch.MavenLaunchDelegate - E:\1\springlearn\Mybatis\simple
+2018-07-07 09:20:34,421 [Worker-15] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -s D:\maven\apache-maven-3.5.3-bin\apache-maven-3.5.3\conf\settings.xml test
+2018-07-07 09:20:49,949 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 09:20:49,949 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-07 09:20:49,965 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 09:20:49,965 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\1\springlearn\Mybatis\simple\src\test\resources
+2018-07-07 09:21:16,449 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 09:21:16,449 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-07 09:21:16,449 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 09:21:16,449 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\1\springlearn\Mybatis\simple\src\test\resources
+2018-07-07 09:21:30,640 [Worker-15] INFO  o.e.m.i.launch.MavenLaunchDelegate - E:\1\springlearn\Mybatis\simple
+2018-07-07 09:21:30,640 [Worker-15] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -s D:\maven\apache-maven-3.5.3-bin\apache-maven-3.5.3\conf\settings.xml test
+2018-07-07 09:21:44,999 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 09:21:44,999 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-07 09:21:45,015 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 09:21:45,015 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\1\springlearn\Mybatis\simple\src\test\resources
+2018-07-07 09:23:24,008 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 09:23:24,008 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-07-07 09:23:24,024 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 09:23:24,024 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\1\springlearn\Mybatis\simple\src\test\resources
+2018-07-07 09:25:18,805 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 09:25:18,805 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-07-07 09:25:18,821 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 09:25:18,821 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\1\springlearn\Mybatis\simple\src\test\resources
+2018-07-07 09:26:00,385 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 09:26:00,385 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-07 09:26:00,385 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 09:26:00,385 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\1\springlearn\Mybatis\simple\src\test\resources
+2018-07-07 09:26:28,088 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 09:26:28,088 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-07 09:26:28,104 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 09:26:28,104 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\1\springlearn\Mybatis\simple\src\test\resources
+2018-07-07 09:27:59,656 [ModalContext] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 09:27:59,656 [ModalContext] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-07 09:27:59,672 [ModalContext] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 09:27:59,672 [ModalContext] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\1\springlearn\Mybatis\simple\src\test\resources
+2018-07-07 09:28:04,641 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 09:28:04,641 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-07 09:28:04,641 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 09:28:04,641 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\1\springlearn\Mybatis\simple\src\test\resources
+2018-07-07 09:29:25,889 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 09:29:25,889 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-07 09:29:25,889 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 09:29:25,889 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\1\springlearn\Mybatis\simple\src\test\resources
+2018-07-07 09:30:04,445 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 09:30:04,445 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-07 09:30:04,445 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 09:30:04,445 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\1\springlearn\Mybatis\simple\src\test\resources
+2018-07-07 09:30:11,185 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 09:30:11,185 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-07 09:30:11,201 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 09:30:11,201 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\1\springlearn\Mybatis\simple\src\test\resources
+2018-07-07 09:30:28,140 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 09:30:28,140 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-07 09:30:28,140 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 09:30:28,140 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\1\springlearn\Mybatis\simple\src\test\resources
+2018-07-07 09:30:40,109 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 09:30:40,109 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-07 09:30:40,109 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 09:30:40,109 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\1\springlearn\Mybatis\simple\src\test\resources
+2018-07-07 09:31:26,137 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 09:31:26,137 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-07 09:31:26,137 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 09:31:26,153 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\1\springlearn\Mybatis\simple\src\test\resources
+2018-07-07 09:31:37,337 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 09:31:37,353 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-07 09:31:37,368 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 09:31:37,368 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\1\springlearn\Mybatis\simple\src\test\resources
+2018-07-07 09:32:02,724 [Worker-18] INFO  o.e.m.i.launch.MavenLaunchDelegate - E:\1\springlearn\Mybatis\simple
+2018-07-07 09:32:02,724 [Worker-18] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -s D:\maven\apache-maven-3.5.3-bin\apache-maven-3.5.3\conf\settings.xml test
+2018-07-07 09:32:22,940 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 09:32:22,940 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 9 resources
+2018-07-07 09:32:22,940 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 09:32:22,956 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\1\springlearn\Mybatis\simple\src\test\resources
+2018-07-07 09:33:52,495 [ModalContext] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 09:33:52,495 [ModalContext] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-07 09:33:52,495 [ModalContext] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 09:33:52,495 [ModalContext] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\1\springlearn\Mybatis\simple\src\test\resources
+2018-07-07 09:34:04,067 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 09:34:04,067 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-07 09:34:04,082 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 09:34:04,082 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\1\springlearn\Mybatis\simple\src\test\resources
+2018-07-07 09:35:08,795 [Worker-22] INFO  o.e.m.i.launch.MavenLaunchDelegate - E:\1\springlearn\Mybatis\simple
+2018-07-07 09:35:08,795 [Worker-22] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -s D:\maven\apache-maven-3.5.3-bin\apache-maven-3.5.3\conf\settings.xml test
+2018-07-07 09:37:59,673 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 09:37:59,673 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-07 09:37:59,673 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 09:37:59,673 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\1\springlearn\Mybatis\simple\src\test\resources
+2018-07-07 09:38:09,775 [Worker-15] INFO  o.e.m.i.launch.MavenLaunchDelegate - E:\1\springlearn\Mybatis\simple
+2018-07-07 09:38:09,775 [Worker-15] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -s D:\maven\apache-maven-3.5.3-bin\apache-maven-3.5.3\conf\settings.xml test
+2018-07-07 09:38:24,420 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 09:38:24,436 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 9 resources
+2018-07-07 09:38:24,436 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 09:38:24,436 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\1\springlearn\Mybatis\simple\src\test\resources
+2018-07-07 09:42:37,976 [Worker-26] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: tk.mybatis:simple:0.0.1-SNAPSHOT @ E:\1\springlearn\Mybatis\simple\pom.xml.
+2018-07-07 09:42:40,038 [Worker-26] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/mybatis/caches/mybatis-ehcache/1.1.0/mybatis-ehcache-1.1.0.pom
+2018-07-07 09:42:40,272 [Worker-26] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/mybatis/caches/mybatis-ehcache/1.1.0/mybatis-ehcache-1.1.0.pom
+2018-07-07 09:42:40,482 [Worker-26] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/mybatis/mybatis-parent/28/mybatis-parent-28.pom
+2018-07-07 09:42:40,947 [Worker-26] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/mybatis/mybatis-parent/28/mybatis-parent-28.pom
+2018-07-07 09:42:41,245 [Worker-26] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/net/sf/ehcache/ehcache-core/2.6.11/ehcache-core-2.6.11.pom
+2018-07-07 09:42:41,478 [Worker-26] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/net/sf/ehcache/ehcache-core/2.6.11/ehcache-core-2.6.11.pom
+2018-07-07 09:42:41,740 [Worker-26] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/mybatis/caches/mybatis-ehcache/1.1.0/mybatis-ehcache-1.1.0.jar
+2018-07-07 09:42:41,948 [Worker-26] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/mybatis/caches/mybatis-ehcache/1.1.0/mybatis-ehcache-1.1.0.jar
+2018-07-07 09:42:42,130 [Worker-26] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/net/sf/ehcache/ehcache-core/2.6.11/ehcache-core-2.6.11.jar
+2018-07-07 09:42:45,818 [Worker-26] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/net/sf/ehcache/ehcache-core/2.6.11/ehcache-core-2.6.11.jar
+2018-07-07 09:42:48,570 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 09:42:48,570 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-07 09:42:48,570 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 09:42:48,570 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\1\springlearn\Mybatis\simple\src\test\resources
+2018-07-07 09:42:54,208 [Worker-15] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2018-07-07 09:42:55,426 [Worker-15] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: tk.mybatis:simple:0.0.1-SNAPSHOT @ E:\1\springlearn\Mybatis\simple\pom.xml.
+2018-07-07 09:42:56,098 [Worker-15] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /simple/src/main/java
+2018-07-07 09:42:56,114 [Worker-15] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /simple/src/main/resources
+2018-07-07 09:42:56,176 [Worker-15] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /simple/src/test/java
+2018-07-07 09:42:57,232 [Worker-15] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 3 sec
+2018-07-07 09:42:58,257 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 09:42:58,258 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 9 resources
+2018-07-07 09:42:58,423 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 09:42:58,423 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\1\springlearn\Mybatis\simple\src\test\resources
+2018-07-07 09:43:47,702 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 09:43:47,702 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-07-07 09:43:47,702 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 09:43:47,702 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\1\springlearn\Mybatis\simple\src\test\resources
+2018-07-07 09:45:32,433 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 09:45:32,433 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-07-07 09:45:32,433 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 09:45:32,433 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\1\springlearn\Mybatis\simple\src\test\resources
+2018-07-07 09:47:26,505 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 09:47:26,506 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-07-07 09:47:26,521 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 09:47:26,521 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\1\springlearn\Mybatis\simple\src\test\resources
+2018-07-07 09:51:20,946 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 09:51:20,946 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-07-07 09:51:20,946 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 09:51:20,946 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\1\springlearn\Mybatis\simple\src\test\resources
+2018-07-07 09:53:03,562 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 09:53:03,562 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-07-07 09:53:03,562 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 09:53:03,562 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\1\springlearn\Mybatis\simple\src\test\resources
+2018-07-07 09:54:14,144 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 09:54:14,144 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-07-07 09:54:14,144 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 09:54:14,160 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\1\springlearn\Mybatis\simple\src\test\resources
+2018-07-07 09:54:44,388 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 09:54:44,403 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 10 resources
+2018-07-07 09:54:44,419 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 09:54:44,419 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\1\springlearn\Mybatis\simple\src\test\resources
+2018-07-07 09:56:04,709 [Worker-37] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: tk.mybatis:simple:0.0.1-SNAPSHOT @ E:\1\springlearn\Mybatis\simple\pom.xml.
+2018-07-07 09:56:05,177 [Worker-35] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/mybatis/caches/mybatis-redis/1.0.0-beta2/mybatis-redis-1.0.0-beta2.pom
+2018-07-07 09:56:05,424 [Worker-35] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/mybatis/caches/mybatis-redis/1.0.0-beta2/mybatis-redis-1.0.0-beta2.pom
+2018-07-07 09:56:05,677 [Worker-35] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/mybatis/mybatis-parent/26/mybatis-parent-26.pom
+2018-07-07 09:56:05,739 [Worker-37] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/mybatis/caches/mybatis-redis/1.0.0-beta2/mybatis-redis-1.0.0-beta2.pom
+2018-07-07 09:56:05,932 [Worker-37] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/mybatis/caches/mybatis-redis/1.0.0-beta2/mybatis-redis-1.0.0-beta2.pom
+2018-07-07 09:56:06,119 [Worker-35] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/mybatis/mybatis-parent/26/mybatis-parent-26.pom
+2018-07-07 09:56:06,450 [Worker-35] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/redis/clients/jedis/2.8.0/jedis-2.8.0.pom
+2018-07-07 09:56:06,450 [Worker-37] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/mybatis/mybatis-parent/26/mybatis-parent-26.pom
+2018-07-07 09:56:06,653 [Worker-35] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/redis/clients/jedis/2.8.0/jedis-2.8.0.pom
+2018-07-07 09:56:06,840 [Worker-37] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/mybatis/mybatis-parent/26/mybatis-parent-26.pom
+2018-07-07 09:56:06,965 [Worker-35] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/commons/commons-pool2/2.3/commons-pool2-2.3.pom
+2018-07-07 09:56:07,043 [Worker-37] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/commons/commons-pool2/2.3/commons-pool2-2.3.pom
+2018-07-07 09:56:07,176 [Worker-35] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/commons/commons-pool2/2.3/commons-pool2-2.3.pom
+2018-07-07 09:56:07,253 [Worker-37] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/commons/commons-pool2/2.3/commons-pool2-2.3.pom
+2018-07-07 09:56:07,659 [Worker-37] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/mybatis/caches/mybatis-redis/1.0.0-beta2/mybatis-redis-1.0.0-beta2.jar
+2018-07-07 09:56:07,784 [Worker-35] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/mybatis/caches/mybatis-redis/1.0.0-beta2/mybatis-redis-1.0.0-beta2.jar
+2018-07-07 09:56:07,894 [Worker-37] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/mybatis/caches/mybatis-redis/1.0.0-beta2/mybatis-redis-1.0.0-beta2.jar
+2018-07-07 09:56:08,003 [Worker-35] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/mybatis/caches/mybatis-redis/1.0.0-beta2/mybatis-redis-1.0.0-beta2.jar
+2018-07-07 09:56:08,081 [Worker-37] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/redis/clients/jedis/2.8.0/jedis-2.8.0.jar
+2018-07-07 09:56:08,203 [Worker-35] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/redis/clients/jedis/2.8.0/jedis-2.8.0.jar
+2018-07-07 09:56:09,114 [Worker-37] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/redis/clients/jedis/2.8.0/jedis-2.8.0.jar
+2018-07-07 09:56:09,307 [Worker-37] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/commons/commons-pool2/2.3/commons-pool2-2.3.jar
+2018-07-07 09:56:09,385 [Worker-35] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/redis/clients/jedis/2.8.0/jedis-2.8.0.jar
+2018-07-07 09:56:09,525 [Worker-37] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/commons/commons-pool2/2.3/commons-pool2-2.3.jar
+2018-07-07 09:56:09,760 [Worker-35] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/commons/commons-pool2/2.3/commons-pool2-2.3.jar
+2018-07-07 09:56:10,017 [Worker-35] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/commons/commons-pool2/2.3/commons-pool2-2.3.jar
+2018-07-07 09:56:10,658 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 09:56:10,658 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-07 09:56:10,658 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 09:56:10,658 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\1\springlearn\Mybatis\simple\src\test\resources
+2018-07-07 09:56:12,227 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 09:56:12,258 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 10 resources
+2018-07-07 09:56:12,414 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 09:56:12,414 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\1\springlearn\Mybatis\simple\src\test\resources
+2018-07-07 09:56:13,678 [Worker-37] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2018-07-07 09:56:14,350 [Worker-37] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: tk.mybatis:simple:0.0.1-SNAPSHOT @ E:\1\springlearn\Mybatis\simple\pom.xml.
+2018-07-07 09:56:14,663 [Worker-37] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /simple/src/main/java
+2018-07-07 09:56:14,678 [Worker-37] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /simple/src/main/resources
+2018-07-07 09:56:14,678 [Worker-37] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /simple/src/test/java
+2018-07-07 09:56:15,022 [Worker-37] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2018-07-07 09:56:15,746 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 09:56:15,747 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 10 resources
+2018-07-07 09:56:15,812 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 09:56:15,812 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\1\springlearn\Mybatis\simple\src\test\resources
+2018-07-07 09:57:46,513 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 09:57:46,529 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-07-07 09:57:46,529 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 09:57:46,529 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\1\springlearn\Mybatis\simple\src\test\resources
+2018-07-07 09:58:51,091 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 09:58:51,091 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-07-07 09:58:51,091 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 09:58:51,091 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\1\springlearn\Mybatis\simple\src\test\resources
+2018-07-07 09:59:39,631 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 09:59:39,631 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-07-07 09:59:39,631 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 09:59:39,646 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\1\springlearn\Mybatis\simple\src\test\resources
+2018-07-07 10:01:02,202 [Worker-37] INFO  o.e.m.i.launch.MavenLaunchDelegate - E:\1\springlearn\Mybatis\simple
+2018-07-07 10:01:02,202 [Worker-37] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -s D:\maven\apache-maven-3.5.3-bin\apache-maven-3.5.3\conf\settings.xml test
+2018-07-07 10:01:13,830 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 10:01:13,830 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-07 10:01:13,846 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 10:01:13,846 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\1\springlearn\Mybatis\simple\src\test\resources
+2018-07-07 10:03:33,622 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 10:03:33,622 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-07 10:03:33,622 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 10:03:33,622 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\1\springlearn\Mybatis\simple\src\test\resources
+2018-07-07 10:21:45,710 [Worker-24] INFO  o.e.m.i.launch.MavenLaunchDelegate - E:\1\springlearn\Mybatis\simple
+2018-07-07 10:21:45,710 [Worker-24] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -s D:\maven\apache-maven-3.5.3-bin\apache-maven-3.5.3\conf\settings.xml test
+2018-07-07 10:21:56,497 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 10:21:56,497 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-07 10:21:56,497 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 10:21:56,497 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\1\springlearn\Mybatis\simple\src\test\resources
+2018-07-07 10:24:59,027 [Worker-35] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/mybatis/mybatis/3.4.6/mybatis-3.4.6-sources.jar
+2018-07-07 10:25:00,421 [Worker-35] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/mybatis/mybatis/3.4.6/mybatis-3.4.6-sources.jar
+2018-07-07 10:25:00,702 [Worker-35] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.mybatis:mybatis:3.4.6
+2018-07-07 10:25:01,031 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 10:25:01,031 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-07 10:25:01,046 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 10:25:01,046 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\1\springlearn\Mybatis\simple\src\test\resources
+2018-07-07 10:25:22,261 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 10:25:22,261 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-07-07 10:25:22,277 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 10:25:22,277 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\1\springlearn\Mybatis\simple\src\test\resources
+2018-07-07 10:25:25,906 [Worker-35] INFO  o.e.m.i.launch.MavenLaunchDelegate - E:\1\springlearn\Mybatis\simple
+2018-07-07 10:25:25,906 [Worker-35] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -s D:\maven\apache-maven-3.5.3-bin\apache-maven-3.5.3\conf\settings.xml test
+2018-07-07 10:25:36,430 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 10:25:36,430 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-07 10:25:36,430 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 10:25:36,430 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\1\springlearn\Mybatis\simple\src\test\resources
+2018-07-07 10:27:11,890 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 10:27:11,890 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 11 resources
+2018-07-07 10:27:11,953 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 10:27:11,953 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\1\springlearn\Mybatis\simple\src\test\resources
+2018-07-07 10:27:19,203 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 10:27:19,218 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 11 resources
+2018-07-07 10:27:19,250 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 10:27:19,265 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\1\springlearn\Mybatis\simple\src\test\resources
+2018-07-07 10:27:26,406 [Worker-20] INFO  o.e.m.i.launch.MavenLaunchDelegate - E:\1\springlearn\Mybatis\simple
+2018-07-07 10:27:26,406 [Worker-20] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -s D:\maven\apache-maven-3.5.3-bin\apache-maven-3.5.3\conf\settings.xml test
+2018-07-07 10:27:44,428 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 10:27:44,428 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-07 10:27:44,428 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 10:27:44,428 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\1\springlearn\Mybatis\simple\src\test\resources
+2018-07-07 10:29:17,516 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 10:29:17,516 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-07-07 10:29:17,516 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 10:29:17,516 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\1\springlearn\Mybatis\simple\src\test\resources
+2018-07-07 10:29:42,345 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 10:29:42,345 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-07-07 10:29:42,377 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 10:29:42,377 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\1\springlearn\Mybatis\simple\src\test\resources
+2018-07-07 10:29:48,674 [Worker-30] INFO  o.e.m.i.launch.MavenLaunchDelegate - E:\1\springlearn\Mybatis\simple
+2018-07-07 10:29:48,674 [Worker-30] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -s D:\maven\apache-maven-3.5.3-bin\apache-maven-3.5.3\conf\settings.xml test
+2018-07-07 10:29:59,122 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 10:29:59,122 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-07 10:29:59,122 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 10:29:59,122 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\1\springlearn\Mybatis\simple\src\test\resources
+2018-07-07 10:30:23,292 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 10:30:23,292 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-07-07 10:30:23,292 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 10:30:23,292 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\1\springlearn\Mybatis\simple\src\test\resources
+2018-07-07 10:30:45,182 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 10:30:45,182 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-07-07 10:30:45,182 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 10:30:45,182 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\1\springlearn\Mybatis\simple\src\test\resources
+2018-07-07 10:30:50,902 [Worker-33] INFO  o.e.m.i.launch.MavenLaunchDelegate - E:\1\springlearn\Mybatis\simple
+2018-07-07 10:30:50,902 [Worker-33] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -s D:\maven\apache-maven-3.5.3-bin\apache-maven-3.5.3\conf\settings.xml test
+2018-07-07 10:31:06,981 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 10:31:06,981 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-07 10:31:06,981 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 10:31:06,981 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\1\springlearn\Mybatis\simple\src\test\resources
+2018-07-07 10:36:51,932 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 10:36:51,932 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-07-07 10:36:51,948 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 10:36:51,948 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\1\springlearn\Mybatis\simple\src\test\resources
+2018-07-07 10:37:01,026 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 10:37:01,026 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-07-07 10:37:01,042 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 10:37:01,042 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\1\springlearn\Mybatis\simple\src\test\resources
+2018-07-07 10:38:17,500 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 10:38:17,500 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-07-07 10:38:17,516 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 10:38:17,516 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\1\springlearn\Mybatis\simple\src\test\resources
+2018-07-07 10:38:34,236 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 10:38:34,236 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-07-07 10:38:34,252 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 10:38:34,252 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\1\springlearn\Mybatis\simple\src\test\resources
+2018-07-07 10:42:41,883 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 10:42:41,883 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 11 resources
+2018-07-07 10:42:41,898 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 10:42:41,898 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\1\springlearn\Mybatis\simple\src\test\resources
+2018-07-07 10:43:00,479 [Worker-24] INFO  o.e.m.i.launch.MavenLaunchDelegate - E:\1\springlearn\Mybatis\simple
+2018-07-07 10:43:00,479 [Worker-24] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -s D:\maven\apache-maven-3.5.3-bin\apache-maven-3.5.3\conf\settings.xml test
+2018-07-07 10:43:10,755 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 10:43:10,755 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-07 10:43:10,755 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 10:43:10,755 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\1\springlearn\Mybatis\simple\src\test\resources
+2018-07-07 10:46:10,205 [Worker-29] INFO  o.e.m.i.launch.MavenLaunchDelegate - E:\1\springlearn\Mybatis\simple
+2018-07-07 10:46:10,221 [Worker-29] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -s D:\maven\apache-maven-3.5.3-bin\apache-maven-3.5.3\conf\settings.xml test
+2018-07-07 10:46:20,303 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 10:46:20,303 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-07 10:46:20,303 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 10:46:20,303 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\1\springlearn\Mybatis\simple\src\test\resources
+2018-07-07 10:46:59,313 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 10:46:59,313 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-07-07 10:46:59,328 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 10:46:59,328 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\1\springlearn\Mybatis\simple\src\test\resources
+2018-07-07 10:47:14,456 [Worker-39] INFO  o.e.m.i.launch.MavenLaunchDelegate - E:\1\springlearn\Mybatis\simple
+2018-07-07 10:47:14,456 [Worker-39] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -s D:\maven\apache-maven-3.5.3-bin\apache-maven-3.5.3\conf\settings.xml test
+2018-07-07 10:47:24,451 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 10:47:24,451 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-07 10:47:24,451 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 10:47:24,451 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\1\springlearn\Mybatis\simple\src\test\resources
+2018-07-07 10:48:45,855 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 10:48:45,855 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-07-07 10:48:45,855 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 10:48:45,855 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\1\springlearn\Mybatis\simple\src\test\resources
+2018-07-07 10:48:50,105 [Worker-24] INFO  o.e.m.i.launch.MavenLaunchDelegate - E:\1\springlearn\Mybatis\simple
+2018-07-07 10:48:50,121 [Worker-24] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -s D:\maven\apache-maven-3.5.3-bin\apache-maven-3.5.3\conf\settings.xml test
+2018-07-07 10:49:00,408 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 10:49:00,408 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-07 10:49:00,424 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 10:49:00,424 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\1\springlearn\Mybatis\simple\src\test\resources
+2018-07-07 10:53:04,065 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 10:53:04,065 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-07-07 10:53:04,081 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 10:53:04,081 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\1\springlearn\Mybatis\simple\src\test\resources
+2018-07-07 10:53:08,536 [Worker-24] INFO  o.e.m.i.launch.MavenLaunchDelegate - E:\1\springlearn\Mybatis\simple
+2018-07-07 10:53:08,536 [Worker-24] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -s D:\maven\apache-maven-3.5.3-bin\apache-maven-3.5.3\conf\settings.xml test
+2018-07-07 10:55:47,734 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 10:55:47,734 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-07-07 10:55:47,734 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 10:55:47,734 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\1\springlearn\Mybatis\simple\src\test\resources
+2018-07-07 10:55:53,725 [Worker-30] INFO  o.e.m.i.launch.MavenLaunchDelegate - E:\1\springlearn\Mybatis\simple
+2018-07-07 10:55:53,725 [Worker-30] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -s D:\maven\apache-maven-3.5.3-bin\apache-maven-3.5.3\conf\settings.xml test
+2018-07-07 10:56:04,172 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 10:56:04,172 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-07 10:56:04,172 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 10:56:04,172 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\1\springlearn\Mybatis\simple\src\test\resources
+2018-07-07 10:56:23,161 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 10:56:23,161 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-07-07 10:56:23,176 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 10:56:23,176 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\1\springlearn\Mybatis\simple\src\test\resources
+2018-07-07 10:56:27,490 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 10:56:27,491 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-07-07 10:56:27,497 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 10:56:27,498 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\1\springlearn\Mybatis\simple\src\test\resources
+2018-07-07 10:56:31,860 [Worker-39] INFO  o.e.m.i.launch.MavenLaunchDelegate - E:\1\springlearn\Mybatis\simple
+2018-07-07 10:56:31,860 [Worker-39] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -s D:\maven\apache-maven-3.5.3-bin\apache-maven-3.5.3\conf\settings.xml test
+2018-07-07 10:56:43,489 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 10:56:43,489 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-07 10:56:43,489 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 10:56:43,489 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\1\springlearn\Mybatis\simple\src\test\resources
+2018-07-07 10:56:56,002 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 10:56:56,002 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-07-07 10:56:56,002 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 10:56:56,002 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\1\springlearn\Mybatis\simple\src\test\resources
+2018-07-07 10:58:38,157 [Worker-41] INFO  o.e.m.i.launch.MavenLaunchDelegate - E:\1\springlearn\Mybatis\simple
+2018-07-07 10:58:38,157 [Worker-41] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -s D:\maven\apache-maven-3.5.3-bin\apache-maven-3.5.3\conf\settings.xml test
+2018-07-07 10:58:49,266 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 10:58:49,266 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-07 10:58:49,266 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 10:58:49,266 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\1\springlearn\Mybatis\simple\src\test\resources
+2018-07-07 10:59:26,929 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 10:59:26,929 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-07-07 10:59:26,929 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 10:59:26,929 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\1\springlearn\Mybatis\simple\src\test\resources
+2018-07-07 10:59:31,670 [Worker-38] INFO  o.e.m.i.launch.MavenLaunchDelegate - E:\1\springlearn\Mybatis\simple
+2018-07-07 10:59:31,670 [Worker-38] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -s D:\maven\apache-maven-3.5.3-bin\apache-maven-3.5.3\conf\settings.xml test
+2018-07-07 10:59:45,178 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 10:59:45,178 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-07 10:59:45,178 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 10:59:45,178 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\1\springlearn\Mybatis\simple\src\test\resources
+2018-07-07 11:00:27,911 [Worker-40] INFO  o.e.m.i.launch.MavenLaunchDelegate - E:\1\springlearn\Mybatis\simple
+2018-07-07 11:00:27,911 [Worker-40] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -s D:\maven\apache-maven-3.5.3-bin\apache-maven-3.5.3\conf\settings.xml test
+2018-07-07 11:00:41,831 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 11:00:41,831 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-07 11:00:41,831 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 11:00:41,831 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\1\springlearn\Mybatis\simple\src\test\resources
+2018-07-07 11:02:24,305 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 11:02:24,305 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-07-07 11:02:24,305 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-07 11:02:24,305 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\1\springlearn\Mybatis\simple\src\test\resources

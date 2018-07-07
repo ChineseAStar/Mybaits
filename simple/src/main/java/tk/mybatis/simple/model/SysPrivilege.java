@@ -1,11 +1,16 @@
 package tk.mybatis.simple.model;
 
+import java.io.Serializable;
 
 /**
  * 权限表
  */
-public class SysPrivilege {
+public class SysPrivilege implements Serializable {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	/**
 	 * 权限ID
 	 */

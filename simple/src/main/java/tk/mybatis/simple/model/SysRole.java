@@ -1,5 +1,6 @@
 package tk.mybatis.simple.model;
 
+import java.io.Serializable;
 import java.util.Date;
 import java.util.List;
 
@@ -8,8 +9,12 @@ import tk.mybatis.simple.type.Enabled;
 /**
  * 角色表
  */
-public class SysRole {
+public class SysRole implements Serializable {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	/**
 	 * 角色ID
 	 */
