@@ -55,9 +55,9 @@ public class SimpleTest {
         //创建 DataSource
         UnpooledDataSource dataSource = new UnpooledDataSource();
         dataSource.setDriver("com.mysql.jdbc.Driver");
-        dataSource.setUrl("jdbc:mysql://localhost:3306/mybatis");
+        dataSource.setUrl("jdbc:mysql://localhost:3306/mybatis?serverTimezone=GMT");
         dataSource.setUsername("root");
-        dataSource.setPassword("");
+        dataSource.setPassword("1234");
 
         //创建 JDBC 事务
         Transaction transaction = new JdbcTransaction(dataSource, null, false);

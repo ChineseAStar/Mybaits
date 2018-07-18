@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//ibatis.apache.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xingxing.mapper.EmpMapper">
+	<select id="getList" resultType="Emp">
+		select empno,ename,job,mgr,hiredate,sal,comm,deptno 
+		from emp
+	</select>
+	<select id="getPart" resultType="Emp">
+		select empno,ename,job,mgr,hiredate,sal,comm,deptno 
+		from emp 
+		where sal &lt; #{sal}
+	</select>
+</mapper>
