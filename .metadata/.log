@@ -4621,3 +4621,16 @@ Caused by: java.util.zip.ZipException: error in opening zip file
 !MESSAGE Save operation warnings.
 !SUBENTRY 1 org.eclipse.core.resources 2 234 2018-07-18 12:45:22.028
 !MESSAGE The project description file (.project) for 'Test、' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+
+!ENTRY org.eclipse.core.jobs 4 2 2018-07-18 12:46:25.517
+!MESSAGE An internal error occurred during: "Detecting library folders".
+!STACK 0
+java.lang.IllegalStateException: Preference node "org.eclipse.wst.validation" has been removed.
+	at org.eclipse.core.internal.preferences.EclipsePreferences.checkRemoved(EclipsePreferences.java:164)
+	at org.eclipse.core.internal.resources.ProjectPreferences.internalGet(ProjectPreferences.java:429)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.get(EclipsePreferences.java:443)
+	at org.eclipse.wst.validation.internal.PreferencesWrapper$PreferencesWrapperPersistent.get(PreferencesWrapper.java:114)
+	at org.eclipse.php.internal.core.libfolders.AutoDetectLibraryFolderJob.hasDisabledPreference(AutoDetectLibraryFolderJob.java:96)
+	at org.eclipse.php.internal.core.libfolders.AutoDetectLibraryFolderJob.runInWorkspace(AutoDetectLibraryFolderJob.java:65)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:39)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
